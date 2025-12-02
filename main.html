@@ -4,15 +4,23 @@
     <title>Michelle's Webpage</title>
     <link rel = "icon" type = "image/x-icon" href = "lab10_favicon.ico">
     <style>
-      section {
-        width: 50vw; 
-      }
+      section { width: 50vw; }
+      .sidebar { height: 100%; width: 200px; position: fixed; top: 0; left: 0; background-color: #1a1a1a; padding-top: 20px; }
+      .sidebar a { text-decoration: none; color: #444444; display: block; }
+      .sidebar a:hover { color: #c9ffcc; }
     </style>
   </head>
   
   <body>
     <h1 style = "text-align: center">Michelle Nguyen</h1>
     <hr>
+
+    <div class = "sidebar">
+      <a href = "#section-education">Education</a>
+      <a href = "#section-skills">Skills</a>
+      <a href = "#section-experience">Experience</a>
+      <a href = "#section-projects">Projects</a>
+    </div>
     
     <h2 id = "section-education">EDUCATION</h2>
     <section>
